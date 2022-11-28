@@ -35,6 +35,7 @@ body {
 	font-size: 14px;
 	font-family: "Inter", sans-serif;
 	line-height: 1.5;
+	overflow-x: hidden;
 }
 
 section {

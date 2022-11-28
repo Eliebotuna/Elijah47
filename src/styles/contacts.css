@@ -16,10 +16,10 @@
 }
 
 .lang {
-	display: flex;
+	display:flex;
 	justify-content: start;
 	justify-items: center;
-	margin-top: 30px;
+	margin-top: 25px;
 }
 
 .lang h3 {
@@ -41,11 +41,11 @@
 	width: 12px;
 	height: 12px;
 	background: var(--gray);
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
+	border-radius: 40%;
+	-webkit-border-radius: 40%;
+	-moz-border-radius: 40%;
+	-ms-border-radius: 40%;
+	-o-border-radius: 40%;
 	opacity: 0.5;
 }
 
