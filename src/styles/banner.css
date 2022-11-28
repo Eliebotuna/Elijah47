@@ -1,0 +1,78 @@
+:root {
+	--black: #232e35;
+	--primary: #7e74f1;
+	--primary-l: #f5f3fe;
+	--gray: #656d72;
+	--white: #ffffff;
+}
+
+.banner .container {
+	display: flex;
+	justify-items: center;
+	justify-content: space-between;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	width: 100%;
+}
+
+.banner .text {
+	max-width: 600px;
+}
+
+.banner .text .subtitle {
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.banner .text h1 {
+	font-size: 38px;
+	font-weight: 900;
+	color: var(--black);
+	margin: 16px 0px;
+}
+
+.banner .text h1 span {
+	color: var(--primary);
+}
+
+.banner .text p {
+	font-size: 16px;
+}
+
+.banner .text .button {
+	display: flex;
+	justify-content: start;
+	padding-top: 50px;
+}
+
+.banner .text .button ul {
+	display: flex;
+	justify-items: center;
+	justify-content: start;
+	margin-left: 30px;
+}
+
+.button ul li {
+	margin: 0px 20px;
+}
+
+.button ul li:hover img {
+	transition: all 300ms ease-in-out;
+	transform: scale(1.5);
+}
+
+.banner .img img {
+	width: 300px;
+}
+
+.banner .img {
+	position: relative;
+}
+
+.banner .img .pic {
+	position: absolute;
+	left: -80px;
+	bottom: 20px;
+	width: 130%;
+}

@@ -1,0 +1,144 @@
+:root {
+	--black: #232e35;
+	--primary: #7e74f1;
+	--primary-l: #f5f3fe;
+	--gray: #656d72;
+	--white: #ffffff;
+}
+
+.formations .container {
+	display: flex;
+	justify-items: center;
+	justify-content: space-between;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	width: 100%;
+}
+
+.title.left {
+	text-align: left !important;
+}
+
+.data-formations {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 80px;
+}
+
+.timeline-list {
+	width: 50%;
+}
+.skills {
+	width: 50%;
+}
+
+.timeline-list .block {
+	position: relative;
+}
+
+.block {
+	padding-bottom: 30px;
+}
+
+.block:last-child {
+	padding-bottom: 0px;
+}
+
+.block h3 {
+	color: var(--black);
+	font-size: 16px;
+	font-weight: 900;
+	margin: 10px 0px;
+}
+
+.block h3:first-child {
+	margin-top: 0px;
+}
+
+.block p {
+	margin-bottom: 10px;
+}
+.block span {
+	color: var(--black);
+}
+
+.block {
+	position: relative;
+	padding-left: 30px;
+}
+
+.block::after {
+	content: "";
+	position: absolute;
+	left: 0px;
+	width: 4px;
+	height: 100%;
+	top: 0px;
+	background: var(--primary-l);
+}
+
+.block::before {
+	content: "";
+	position: absolute;
+	left: -10px;
+	top: 25%;
+	width: 25px;
+	height: 25px;
+	background: var(--primary-l);
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.skills-block {
+	margin-top: 50px;
+}
+
+.skill-block {
+	margin-top: 20px;
+}
+
+.skill-block h3 {
+	font-size: 16px;
+	color: var(--black);
+	margin-bottom: 16px;
+	font-weight: 700;
+}
+
+.level {
+	height: 10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	background: var(--primary-l);
+	width: 100%;
+	overflow: hidden;
+}
+
+.level > div {
+	height: 100%;
+	background: var(--primary);
+}
+
+.level.level1 div {
+	width: 50%;
+}
+
+.level.level2 div {
+	width: 75%;
+}
+
+.level.level3 div {
+	width: 60%;
+}
+.level.level4 div {
+	width: 40%;
+}
+.level.level5 div {
+	width: 65%;
+}

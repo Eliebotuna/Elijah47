@@ -1,0 +1,17 @@
+[
+	{
+		"icon": "./assets/icons/Icon.svg",
+		"title": "UI/UX Design",
+		"desc": "J'utilise Figma pour créer des maquettes de site web et les applications mobiles"
+	},
+	{
+		"icon": "./assets/icons/Icon-1.svg",
+		"title": "Intégration UI",
+		"desc": "J'utilise HTML & CSS pour intégrer des maquettes de site web et le framework FLUTTER pour les Applis Mobiles"
+	},
+	{
+		"icon": "./assets/icons/Icon-2.svg",
+		"title": "FrontEnd",
+		"desc": "J'utilise JavasScript pour créer des pages intéractives et le language DART de flutter pour les applications mobiles"
+	}
+]

@@ -1,0 +1,39 @@
+{
+  "name": "script-type-module",
+  "version": "1.0.1",
+  "description": "<script type=module> polyfill",
+  "main": "script-type-module.js",
+  "scripts": {
+    "build:worker": "rollup -c rollup.config.js -o worker.js src/worker/index.js",
+    "build:window": "npm run rollup:window && npm run prep",
+    "rollup:window": "rollup -c rollup.config.js -o polyfill.js src/window/index.js",
+    "prep": "cat src/window/eval.js |cat - polyfill.js > /tmp/out && mv /tmp/out polyfill.js",
+    "build": "npm run build:worker && npm run build:window",
+    "test": "testee test/everything.html test/inline-everything.html test/import-syntax.html test/export-syntax.html test/scope.html test/circular.html test/errors.html test/import-dynamic.html --browsers firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewp/script-type-module.git"
+  },
+  "keywords": [
+    "script",
+    "module"
+  ],
+  "author": "Matthew Phillips",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/matthewp/script-type-module/issues"
+  },
+  "homepage": "https://github.com/matthewp/script-type-module#readme",
+  "devDependencies": {
+    "acorn": "^4.0.3",
+    "mocha-test": "^1.0.3",
+    "rollup": "^0.36.0",
+    "rollup-plugin-commonjs": "^5.0.4",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "source-map": "^0.5.6",
+    "systemjs": "^0.19.39",
+    "traceur": "0.0.111",
+    "webcomponents.js": "^0.7.22"
+  }
+}

@@ -1,0 +1,33 @@
+:root {
+	--black: #232e35;
+	--primary: #7e74f1;
+	--primary-l: #f5f3fe;
+	--gray: #656d72;
+	--white: #ffffff;
+}
+
+.experiences {
+	background: var(--primary-l);
+}
+
+.experiences .container {
+	display: flex;
+	justify-items: center;
+	justify-content: space-between;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	width: 100%;
+}
+
+.experiences .title {
+	text-align: center;
+}
+
+.experiences .text {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.experiences .text .button {
+	margin-top: 30px;
+}
