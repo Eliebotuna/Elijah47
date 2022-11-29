@@ -115,14 +115,14 @@
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
-	background: var(--primary-l);
+	background: var(--white);
 	width: 100%;
 	overflow: hidden;
 }
 
 .level > div {
 	height: 100%;
-	background: var(--primary);
+	background: var(--red);
 }
 
 .level.level1 div {
