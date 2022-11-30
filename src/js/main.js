@@ -86,3 +86,15 @@ getCompetencesAPI()
 	.catch((e) => {
 		throw new Error("Données introuvables via le chemin");
 	});
+//Mode dark
+ const icon=document.getElementById("icon");
+ icon.onclick = function(event){
+	document.body.classList.toggle("dark-theme");
+	if(document.body.classList.contains("dark-theme")){
+		icon.src="./assets/icons/sun.jpeg";
+	
+	}else{
+		icon.src="./assets/icons/mod.svg";
+	}
+	
+ }
