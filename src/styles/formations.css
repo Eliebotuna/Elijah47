@@ -140,5 +140,9 @@
 	width: 40%;
 }
 .level.level5 div {
+	width: 50%;
+}
+
+.level.level6 div {
 	width: 65%;
 }
